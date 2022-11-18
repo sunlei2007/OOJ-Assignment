@@ -1,0 +1,73 @@
+﻿@import "reset.css";
+/*---------------------------*/
+/*Header footer use*/
+/*---------------------------*/
+:root {
+    
+}
+ 
+/*main content*/
+main {
+    height:100%;
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    background-color: #393939;
+}
+.site-main-content{
+    width:500px;
+}
+.site-main-content > div {
+    margin-top:40px;
+}
+
+.time-cls{
+    height:100px;
+    font-size:120px;
+    color:#fff;
+    text-align:center;
+    line-height:100px;
+}
+.alarm-div{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.time-set-cls {
+    width: 100px;
+    font-size: 24px;
+    color: #fff;
+    text-align: center;
+}
+.content-div-cls{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.form-time {
+    width: 120px;
+    color: #fff;
+    background-color: #393939;
+    padding: 0 20px 0 20px;
+    text-align: center;
+    height: 40px;
+    border-radius: 30px;
+    border:solid 1px #8b8a8a;
+    transition: border-color 0.25s ease-in-out;
+    opacity: 0.8;
+}
+
+.form-time:focus {
+    border: 1px solid #45d4f5;
+}
+
+.form-submit {
+    width: 120px;
+    color: #fff;
+    height: 40px;
+    border-radius: 30px;
+    background-color:#0988f3;
+    margin-left:10px;
+}
